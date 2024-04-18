@@ -1,0 +1,56 @@
+.categoryPage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 30vh;
+    margin-right: 30vh;
+
+}
+
+.categoryPage h1 {
+    background: -webkit-linear-gradient(97.1deg, #C41740 4.8%, #EA9C28 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 75px;
+    text-align: center;
+
+}
+
+.categoryPage input {
+    margin-bottom: 20px;
+}
+
+.categoryPagePosts {
+    display: flex;
+    flex-direction: column;
+}
+
+.prevNextButtons {
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 10px;
+}
+
+.nextButton, .previousButton {
+    background: #1D2939;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: #1D2939 solid 1px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    max-width: 100px;
+    align-self: center;
+
+}
+
+.nextButton:hover, .previousButton:hover {
+    color: black;
+    background: white;
+    border: #1D2939 solid 1px;
+    transition: 0.3s;
+    cursor: pointer;
+}

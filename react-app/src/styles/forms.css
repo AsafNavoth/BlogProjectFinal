@@ -1,0 +1,96 @@
+.adminForms {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.postFormWrapper, .postEditFormWrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #F2F4F7;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.contactFormWrapper {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #F2F4F7;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.signInWrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    background: #F2F4F7;
+}
+
+.addPostForm, .postEditForm,
+.addContactForm, .signInPostForm {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    background: white;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.categoryAndPostSelectForm {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+
+.addPostForm button, .signInPostForm button,
+.postEditForm button, .contactFormWrapper button,
+.postFormWrapper button{
+    background: #1D2939;
+    color: white;
+    padding: 7px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: #1D2939 solid 1px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.signInPostForm button:hover, .postEditForm button:hover,
+.addPostForm button:hover, .contactFormWrapper button:hover,
+.postFormWrapper button:hover {
+    color: black;
+    background: white;
+    border: #1D2939 solid 1px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.addPostForm input, textarea, .postEditForm input, textarea, select,
+.signInPostForm input, .contactFormWrapper input, textarea {
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 5px;
+    color: #98A2B3;
+}

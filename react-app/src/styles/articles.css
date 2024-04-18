@@ -1,0 +1,168 @@
+.articles {
+    margin-left: 35vh;
+    margin-right: 35vh;
+
+}
+
+.postQuery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: center;
+    align-items: center;
+}
+
+.postQuery input {
+    max-width: 170px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 5px;
+    color: #98A2B3;
+}
+
+.postQuery label {
+    font-weight: bold;
+}
+
+.article {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border:1px solid white;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+
+.article button, .article a {
+    background: #1D2939;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: #1D2939 solid 1px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.article button:hover, .article a:hover {
+    color: black;
+    background: white;
+    border: #1D2939 solid 1px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.article:hover {
+    border: black solid 1px;
+    transition: 1s;
+}
+
+
+.categoryHeader {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.articleButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.categoryTitle {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.viewAllButton {
+    background: white;
+    padding: 10px;
+    border: 1px solid #E4E7EC;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.viewAllButton:hover {
+    background: #1D2939;
+    color: white;
+    transition: 0.3s;
+}
+
+.articleCard {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.articleHead {
+    display: flex;
+    flex-direction: column;
+}
+
+.articleTitle {
+    margin: 20px 0 0 0;
+}
+
+.articleText {
+    margin: 30px;
+}
+
+.article .publishDate {
+    /*font-family: Graphik;*/
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #667085;
+
+}
+
+
+.article img {
+    max-height: 200px;
+    margin: 20px;
+}
+
+
+.articlePageContent {
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+}
+
+.articlePageContent p {
+    margin: 0 50vh 0 50vh;
+}
+
+.recommendedArticles {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    text-align: center;
+}
+
+
+
+.spinner-border {
+    margin-top: 100px;
+    font-size: 76px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin-left: 40vh;
+    margin-right: 40vh;
+}

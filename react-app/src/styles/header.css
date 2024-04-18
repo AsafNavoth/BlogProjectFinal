@@ -1,0 +1,79 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px 0 #1E283414;
+    align-items: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: white;
+
+}
+
+header nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header nav.right-buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+}
+
+.signUpDiv {
+    margin-right: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav.navCategories {
+    display: inline-block;
+
+}
+
+header nav.navCategories a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+header p {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+header .subButton {
+    background: #1D2939;
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: #1D2939 solid 1px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+header .subButton:hover {
+    color: black;
+    background: white;
+    border: #1D2939 solid 1px;
+    transition: 0.3s;
+}
+
+.currentPageButton {
+    background: -webkit-linear-gradient(97.1deg, #C41740 4.8%, #EA9C28 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header a, header p {
+    cursor:pointer;
+}
